@@ -9,74 +9,89 @@
     <body>
         <div class="container">
             <div class="side-menu">
-                <img class="sm-icon" src="Images/dashboard.svg" alt="" />
-                <span class="sm-icon-text">Dashboard</span>
-                <span class="sm-sub1"
-                    ><img class="sm-icon" src="Images/home.svg" alt="" /><span
-                        class="sm-title"
-                        >Home</span
-                    ></span
-                >
-                <span class="sm-sub2"
-                    ><img
-                        class="sm-icon"
-                        src="Images/profile.svg"
-                        alt=""
-                    /><span class="sm-title">Profile</span></span
-                >
-                <span class="sm-sub3"
-                    ><img
-                        class="sm-icon"
-                        src="Images/message.svg"
-                        alt=""
-                    /><span class="sm-title">Messages</span></span
-                >
-                <span class="sm-sub4"
-                    ><img
-                        class="sm-icon"
-                        src="Images/history.svg"
-                        alt=""
-                    /><span class="sm-title">History</span></span
-                >
-                <span class="sm-sub5"
-                    ><img class="sm-icon" src="Images/tasks.svg" alt="" /><span
-                        class="sm-title"
-                        >Tasks</span
-                    ></span
-                >
-                <span class="sm-sub6"
-                    ><img
-                        class="sm-icon"
-                        src="Images/communities.svg"
-                        alt=""
-                    /><span class="sm-title">Communities</span></span
-                >
-                <span class="sm-sub7"
-                    ><img
-                        class="sm-icon"
-                        src="Images/settings.svg"
-                        alt=""
-                    /><span class="sm-title">Settings</span></span
-                >
-                <span class="sm-sub8"
-                    ><img
-                        class="sm-icon"
-                        src="Images/support.svg"
-                        alt=""
-                    /><span class="sm-title">Support</span></span
-                >
-                <span class="sm-sub9"
-                    ><img
-                        class="sm-icon"
-                        src="Images/privacy.svg"
-                        alt=""
-                    /><span class="sm-title">Privacy</span></span
-                >
+                <div class="dashboard">
+                    <img class="sm-icon" src="Images/dashboard.svg" alt="" />
+                    <span class="sm-icon-text">Dashboard</span>
+                </div>
+                <div class="sm-top-options">
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/home.svg"
+                            alt=""
+                        /><span class="sm-title">Home</span></span
+                    >
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/profile.svg"
+                            alt=""
+                        /><span class="sm-title">Profile</span></span
+                    >
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/message.svg"
+                            alt=""
+                        /><span class="sm-title">Messages</span></span
+                    >
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/history.svg"
+                            alt=""
+                        /><span class="sm-title">History</span></span
+                    >
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/tasks.svg"
+                            alt=""
+                        /><span class="sm-title">Tasks</span></span
+                    >
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/communities.svg"
+                            alt=""
+                        /><span class="sm-title">Communities</span></span
+                    >
+                </div>
+                <div class="sm-bottom-options">
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/settings.svg"
+                            alt=""
+                        /><span class="sm-title">Settings</span></span
+                    >
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/support.svg"
+                            alt=""
+                        /><span class="sm-title">Support</span></span
+                    >
+                    <span class="sm-sub"
+                        ><img
+                            class="sm-icon"
+                            src="Images/privacy.svg"
+                            alt=""
+                        /><span class="sm-title">Privacy</span></span
+                    >
+                </div>
             </div>
             <div class="header">
                 <div class="search">
                     <img class="search-icon" src="Images/search.svg" alt="" />
-                    <span class="search-bar"></span>
+                    <span class="search-container">
+                        <input
+                            type="text"
+                            name="search"
+                            placeholder="Search..."
+                            class="search-bar"
+                        />
+                    </span>
                 </div>
                 <div class="top-right">
                     <img class="tr-bell" src="Images/bell.svg" alt="" />
@@ -85,10 +100,12 @@
 
                     <span class="tr-name">Benjamin Taylor</span>
                 </div>
-                <div class="h-menu">
+                <div class="h-user">
                     <img class="h-pfp" src="Images/pfp.svg" alt="" />
                     <span class="h-hi">Hi there,</span>
                     <span class="h-name">Benjamin Taylor (@benjamin)</span>
+                </div>
+                <div class="h-buttons">
                     <button class="h-new">New</button>
                     <button class="h-upload">Upload</button>
                     <button class="h-share">Share</button>

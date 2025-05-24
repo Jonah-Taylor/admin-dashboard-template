@@ -145,6 +145,7 @@ img {
     max-width: none;
     justify-self: right;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .h-hi {
@@ -155,6 +156,7 @@ img {
 .h-name {
     font-size: 20px;
     grid-area: 2 / 2 / 3 / 3;
+    margin-bottom: 10px;
 }
 
 .buttons {
@@ -175,4 +177,17 @@ img {
     grid-area: main-board;
     background-color: lightgray;
     overflow: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects-container {
+    display: grid;
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.mb-projects {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 50px;
 }

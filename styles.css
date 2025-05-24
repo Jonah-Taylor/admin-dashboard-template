@@ -99,6 +99,8 @@ img {
     grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+    box-shadow: 2px 2px 8px gray;
 }
 
 .header > * {
@@ -263,6 +265,7 @@ img {
     background-color: white;
     border-left: 6px outset #f0b429;
     border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .project-icons {
@@ -310,6 +313,7 @@ img {
     background-color: white;
     border-radius: 10px;
     align-items: center;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .announcement {
@@ -328,6 +332,7 @@ img {
 
 .t-profiles {
     gap: 15px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .t-profile {
